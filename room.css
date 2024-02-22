@@ -1,0 +1,94 @@
+.rooms {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.room-list {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.room {
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 30%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    background-image: url("https://img.freepik.com/free-photo/mockup-frames-living-room-interior-with-chair-decorscandinavian-style_41470-5148.jpg?w=740&t=st=1706241296~exp=1706241896~hmac=fa3d8b188bcf3f1f685463cb279d04bf19824e9f2b88ce02d90c81c464babca9");
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    border-radius: 8px;
+}
+
+header {
+    background-color:transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: antiquewhite;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.ab{
+    width:180px;
+    height: 200px;
+}
+.ab:hover{
+    width:780px;
+    height: 200px;
+}
+ul{
+    list-style-type: none;
+
+    
+}
+ul li a{
+    text-decoration: none;
+}
+.asd{
+    position: absolute;
+    top:100%;
+    left:80px;
+    color: azure;
+
+}
+h1{
+    color:bisque;
+}
